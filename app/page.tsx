@@ -1,9 +1,10 @@
 import Image from "next/image";
-
+import clsx from "clsx";
+import { cn } from "@/lib/utils";
 export default function Home() {
   return (
-    <main className="text-xl">
-     Helo Eo
-    </main>
+    <div>
+      <h1 className={cn("italic", "text-yellow-400", true && "underline")}>Hello</h1>
+    </div>
   );
 }
