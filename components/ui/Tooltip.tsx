@@ -23,7 +23,7 @@ export const ToolTip : FC<TooltipProps> = ({bgColor, title , image}) =>{
         {/* Title */}
         {
             active ? <div className="absoulte -top-6 bg-black/[0.2] py-0.5 px-1.5 rounded-2xl backdrop-blur-[6px] transition-all duration-200">
-                <p className="font-lancelot text-[10px] whitespace-nowrap">HTML</p>
+                <p className="font-lancelot text-[10px] whitespace-nowrap">{title}</p>
             </div> : null
         }
     </div>

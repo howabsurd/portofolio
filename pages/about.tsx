@@ -25,12 +25,7 @@ function AboutSection() {
                 <StackCard />
                 <ExperienceCard />
                 <EducationCard />
-                </div>
-                <div className='hidden 2xl:flex'>
-                <Card title='Background'>Background</Card>
-                <Card title='Gallery'>Gallery</Card>
-                </div>
-           
+                </div>         
         </div>
     </div> 
   )
