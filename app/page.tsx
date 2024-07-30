@@ -8,35 +8,25 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GoHomeFill } from "react-icons/go";
 import { Input } from "@/components/ui/input";
-import { FaUser } from "react-icons/fa";
+import { FaArrowRight, FaUser } from "react-icons/fa";
 import { TextArea } from "@/components/ui/text-area";
 import { Profile } from "@/components/ui/profile";
+import { FancyButton } from "@/components/ui/fancy-button";
+import { LiveClock } from "@/components/ui/live-clock";
+import { MagneticWrapper } from "@/components/visualEffects/magnetic-wrapper";
+import ScrollDown from "@/components/ui/scroll-down";
+import LandingSection from "@/pages/landing";
+import FeaturedSection from "@/pages/featured";
 
 export default function Home() {
   return (
     <WaterWaveWrapper imageUrl="" dropRadius="3" perturbance="3" resolution="2048">
-      {()=> <div className="w-full p-10">
-        <div className="max-w-2xl mx-auto">
-        <Card title="ui component">
-          <div className="grid grid-cols-4">
-            <Button link="HELO">
-              Basic Button
-            </Button>
-            <Button link="HELO">
-              <GoHomeFill />
-              Basic Button
-            </Button>
-            <Button link="HELO">
-              <GoHomeFill />
-            </Button>
-            </div>
-          <Input type="text" placeholder="Full Name"/>
-          <Input type="text" placeholder="Full Name" icon={<FaUser/>  }/>
-          <TextArea placeholder="Full Name" icon={<FaUser/>  }/>
-          <Profile />
-        </Card>
-          </div>
-        </div>}
+      {()=>
+      <div className=""> 
+          {/* <LandingSection /> */}
+          <FeaturedSection />
+      </div>
+        }
     </WaterWaveWrapper>
   );
 }
