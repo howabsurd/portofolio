@@ -1,4 +1,5 @@
 import featuredData from "./featured";
+import { galleryImages } from "./gallery";
 
 
-export {featuredData};
+export {featuredData, galleryImages};
