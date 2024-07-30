@@ -16,7 +16,7 @@ export const ResumeCard = () =>{
         {/* Social and resume button */}
         <div className="flex items-center justify-between  md:w-[calc(100%-48px)]">
             {/* Socials */}
-            <Button link="csac">
+            <Button link="https://drive.google.com/file/d/1bFE5qXaBDsKxfY5Kzi5LbTPlE2OKVdnS/view?usp=sharing">
                 <FaDownload />
                 Resume
             </Button>
