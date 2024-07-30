@@ -1,3 +1,4 @@
+'use client'
 import { featuredData } from '@/data'
 import React, { useState } from 'react'
 import { FeaturedCard } from '../cards/featured/featured-card'

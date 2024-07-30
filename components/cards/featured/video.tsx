@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { act, useEffect, useRef } from "react"
+import { useEffect, useRef } from "react"
 
 export const Video = ({video, active}: {video : string, active: boolean}) =>{
     useEffect(()=>{

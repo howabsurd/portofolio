@@ -28,12 +28,12 @@ export const stackData = [
                 image: HTMLImg,
                 bgColor: ""
             },
-            {
-                id: 12,
-                title: "CSS 3",
-                image: CSSImg,
-                bgColor: ""
-            },
+            // {
+            //     id: 12,
+            //     title: "CSS 3",
+            //     image: CSSImg,
+            //     bgColor: ""
+            // },
             {
                 id: 13,
                 title: "JavaScript",
